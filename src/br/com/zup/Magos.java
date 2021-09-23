@@ -18,6 +18,7 @@ public class Magos extends Heroi {
 
     //Metodo aplicar magia
     public double aplicarMagia(double magia){
-
+        setVida(getVida() - magia);
+        return  getVida();
     }
 }
