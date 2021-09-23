@@ -36,4 +36,5 @@ public class Heroi {
     public double exibirVida (){
         return vida;
     }
+
 }
