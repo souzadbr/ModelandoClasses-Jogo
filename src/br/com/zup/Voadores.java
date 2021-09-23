@@ -17,6 +17,6 @@ public class Voadores extends Inimigos{
     }
     //metodo dano
     public double aplicarDano(){
-            return aplicarDano();
+            return danoTiro;
     }
 }

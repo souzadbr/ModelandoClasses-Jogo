@@ -25,17 +25,15 @@ public class Heroi {
         this.vida = vida;
     }
 
-    public String trocarNome(String novoNome){
+    public void trocarNome(String novoNome){
       nome = novoNome;
-       return nome;
     }
 
-    public double receberDano (double dano){
+    public void receberDano (double dano){
        vida = vida - dano;
-       return vida;
     }
 
-    public void exibirVida (){
-        System.out.println("As vidas são: "+ vida);
+    public double exibirVida (){
+        return vida;
     }
 }

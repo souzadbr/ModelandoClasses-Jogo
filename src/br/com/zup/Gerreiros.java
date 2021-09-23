@@ -19,6 +19,6 @@ public class Gerreiros extends Heroi {
     //Metodo dano
 
     public double aplicarDano(){
-        return aplicarDano();
+        return poderAtaque;
     }
 }

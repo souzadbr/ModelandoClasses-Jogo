@@ -24,17 +24,17 @@ public class Inimigos {
     public void setVida(double vida) {
         this.vida = vida;
     }
-    public String trocarNome(String novoNome){
+
+    public void  trocarNome(String novoNome){
         this.nome = novoNome;
-        return nome;
+
     }
 
-    public double receberDano (double dano){
+    public void receberDano (double dano){
         vida = vida - dano;
-        return vida;
     }
 
-    public void exibirVida (){
-        System.out.println(" As vidas são: "+ vida);
+    public double exibirVida (){
+       return vida;
     }
 }
