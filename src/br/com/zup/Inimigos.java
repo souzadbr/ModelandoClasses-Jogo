@@ -24,4 +24,15 @@ public class Inimigos {
     public void setVida(double vida) {
         this.vida = vida;
     }
+    public String trocarNome(String novoNome){
+        setNome(novoNome);
+    }
+
+    public double receberDano (double dano){
+
+    }
+
+    public void exibirVida (){
+        System.out.println("Voce tem "+ getVida()+ " vidas");
+    }
 }
